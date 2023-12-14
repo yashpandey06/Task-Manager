@@ -4,9 +4,3 @@ node_modules/
 # Ignore environment variable file
 .env
 
-# Ignore logs
-logs/
-
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
