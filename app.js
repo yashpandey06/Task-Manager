@@ -17,10 +17,8 @@ const app = express();
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors());
-
 const port = process.env.PORT || 3000;
 const URI = process.env.URI;
-
 mongoose
   .connect(URI)
   .then(() => {
