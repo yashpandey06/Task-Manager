@@ -12,7 +12,6 @@ import cors from "cors";
 import cluster from "cluster";
 import os from "os";
 const numOfCPU = os.cpus().length;
-
 const app = express();
 app.use(cookieParser());
 app.use(express.json());
